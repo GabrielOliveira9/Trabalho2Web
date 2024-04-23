@@ -10,7 +10,7 @@ Implementação de um sistema de agenda, com funcionalidades de CRUD (Create, Re
 * **DELETE `/registers/:id`:** Remove um registro específico.
 * **POST `/auth`:** Cria um novo usuário autenticado.
 # Validação e testagem
-Foram implementadas funcionalidades de validação e testagem. Na pasta _/hooks/functions/schedule_ e no arquivo _test_, respectivamente.
+Foram implementadas funcionalidades de validação e testagem. Na pasta _/hooks/functions/schedule_ e no arquivo _tests_, respectivamente.
 # Instalação
 Após abrir a pasta na IDE, digite a seguintes linha no terminal ara instalar todas as bibliotecas, frameworks e plugins:
 ```
@@ -18,6 +18,8 @@ npm install
 ```
 # Configuração
 O arquivo _.env.sample_ deve ser renomeado para _.env_ e suas propriedades devem ser alteradas para que estejam de acordo com as que você irá usar.
+
+Caso faça alterações, o arquivo _tests_ também deverá ser atualizado para que a testagem de configuração esteja de acordo com os novos dados.
 # Inicialização
 O comando a seguir deve ser digitado no terminal para inicializar o ambiente:
 ```
