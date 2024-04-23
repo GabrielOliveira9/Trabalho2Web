@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "6627123484ea3a78ac4cad85"
+  },
+  "name": "Previously Created Register",
+  "date": "21/04/2023",
+  "Description": "GET testing"
+},
+{
+  "_id": {
+    "$oid": "6627128a84ea3a78ac4cad86"
+  },
+  "title": "Delete Register Test",
+  "date": "21/04/2022",
+  "description": "This register has not been deleted"
+},
+{
+  "_id": {
+    "$oid": "662712da84ea3a78ac4cad87"
+  },
+  "title": "Update Register Test",
+  "date": "21/03/2024",
+  "description": "This register has not been updated"
+}]
